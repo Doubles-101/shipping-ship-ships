@@ -1,15 +1,19 @@
-.details {
+#container {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
 }
 
-.detail--column {
-    flex-basis: 24%;
+.listcontainer {
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: row;
+}
+
+.dockbox,.haulerbox,.shippingshipbox {
+    flex-basis: 30%;
     margin: 0 2rem;
     border: 1px dotted goldenrod;
     padding: 1rem;
 }
 
-.assignments {
-    padding: 1rem 5rem;
-}

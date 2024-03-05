@@ -9,7 +9,7 @@ const database = {
         { id: 1, name: "Big Ol Boat", dockId: 2 },
         { id: 2, name: "Tubby", dockId: 1 },
         { id: 3, name: "Bubbles", dockId: 4 },
-        { id: 4, name: "Boating Boat Boats", dockId: 3 }
+        { id: 4, name: "Boating Boat Boats", dockId: 4 }
     ],
     shippingShips: [
         { id: 1, name: "Patrick Star", haulerId: 1 },
